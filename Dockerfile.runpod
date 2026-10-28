@@ -1,0 +1,6 @@
+FROM runpod/worker-comfyui:5.8.6-base-cuda12.8.1
+
+# Install this repository beside ComfyUI's built-in and third-party nodes.
+COPY . /comfyui/custom_nodes/comfyui-ace-cover
+
+# No pip installation is necessary: the extension uses only ComfyUI runtime APIs.

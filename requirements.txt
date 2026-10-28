@@ -1,0 +1,2 @@
+# No third-party Python packages are required.
+# ComfyUI provides torch and the AUDIO/VAE/LATENT runtime interfaces.
